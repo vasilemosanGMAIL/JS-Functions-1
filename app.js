@@ -1,5 +1,5 @@
 const kelvinToFahrenheit = (kelvin) => {
-  console.log(`Below is the output of kelvinToFahrenheit function:\n`);
+  console.log(`Below is the output of the kelvinToFahrenheit function:\n`);
   // Here we are converting the current constant Kelvin value to Celsius
   const celsius = kelvin - 273;
   // Here we are converting the Celsius value to Fahrenheit
@@ -11,7 +11,7 @@ const kelvinToFahrenheit = (kelvin) => {
 };
 /****************************************** */
 const humanAgeInDogYears = (myAge) => {
-  console.log(`\nBelow is the output of humanAgeInDogYears function:\n`);
+  console.log(`\nBelow is the output of the humanAgeInDogYears function:\n`);
   // The below variable will be used latter
   let earlyYears = 2;
   // The below variable is a conversion of the first two years of a dog’s life
@@ -42,7 +42,7 @@ const humanAgeInDogYears = (myAge) => {
 };
 /****************************************** */
 const answerMyQuestion = (userName, userQuestion) => {
-  console.log(`\nBelow is the output of answerMyQuestion function:\n`);
+  console.log(`\nBelow is the output of the answerMyQuestion function:\n`);
   // ternary expression that checks if userName is not empty
   userName !== null ? console.log(`Hello, ${userName}`) : console.log("Hello!");
 
@@ -75,7 +75,7 @@ const answerMyQuestion = (userName, userQuestion) => {
 };
 /****************************************** */
 const raceTime = (userAge, registeredEarly) => {
-  console.log(`\nBelow is the output of raceTime function:\n`);
+  console.log(`\nBelow is the output of the raceTime function:\n`);
   // Race numbers generation
   let raceNumber = Math.floor(Math.random() * 1000);
 
@@ -100,3 +100,5 @@ answerMyQuestion(
   "Will I be able to complete the BooGeek web development course?"
 );
 raceTime(17, true);
+raceTime(20, true);
+raceTime(20, false);
